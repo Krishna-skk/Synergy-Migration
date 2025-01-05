@@ -1,0 +1,48 @@
+commit refs/heads/master
+mark :1
+author Synergy User <user@example.com> 1613000000 +0000
+committer Synergy User <user@example.com> 1613000000 +0000
+
+data 35
+Initial commit for file1 and file2.
+###
+M 100644 file1.c
+data 28
+// file1.c - Initial version
+###
+M 100644 file2.c
+data 28
+// file2.c - Initial version
+###
+commit refs/heads/master
+mark :2
+author Synergy User <user@example.com> 1613000000 +0000
+committer Synergy User <user@example.com> 1613000000 +0000
+
+data 21
+Fixed bug in file1.c.
+###
+M 100644 file1.c
+data 28
+// file1.c - Initial version
+###
+M 100644 file2.c
+data 28
+// file2.c - Initial version
+###
+commit refs/heads/master
+mark :3
+author Synergy User <user@example.com> 1613000000 +0000
+committer Synergy User <user@example.com> 1613000000 +0000
+
+data 29
+Added new feature to file2.c.
+###
+M 100644 file1.c
+data 28
+// file1.c - Initial version
+###
+M 100644 file2.c
+data 28
+// file2.c - Initial version
+###
